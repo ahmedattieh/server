@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 41, 121);
+    
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.box{
+    width: 300px;
+    padding: 40px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border: 1px solid blue;
+    border-radius: 22px;
+}
+.box h1{
+    color: rgb(0, 20, 56);
+    font-weight: 500;
+    font-family: "Poetsen One" , sans-serif;
+} 
+.box input[type = "text"], .box input[type = "email"], .box input[type = "password"]{
+    border: 0;
+    width: 240px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 78);
+    padding: 14px 10px;
+    outline: none;
+    color: rgb(1, 1, 99);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 16px;
+}
+.box input[type = "text"]:focus, .box input[type = "email"]:focus, .box input[type = "password"]:focus{
+    width: 250px;
+    border-color: rgb(10, 0, 156);
+}
+.box input[type="submit"]{
+    border: 0;
+    width: 240px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 126);
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(172, 172, 172);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 16px;
+}
+.box input[type="submit"]:hover{
+    background: blue;
+    color: white;
+}
