@@ -1,51 +1,50 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(12, 41, 121);
-    
+    background-color: rgb(59, 98, 133);
+    font-family: 'Tajawal', sans-serif;    
 }
-.poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+img{
+    background: none;
+    opacity: 0.60;
+}
 .box{
     width: 300px;
     padding: 40px;
     background: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
     border: 1px solid blue;
     border-radius: 22px;
 }
 .box h1{
-    color: rgb(0, 20, 56);
+    color: rgb(0, 0, 0);
     font-weight: 500;
-    font-family: "Poetsen One" , sans-serif;
-} 
-.box input[type = "text"], .box input[type = "email"], .box input[type = "password"]{
+    font-family: 'Tajawal', sans-serif;
+}
+.box input[type="text"],.box input[type="password"]{
     border: 0;
     width: 240px;
     background: none;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid rgb(0, 0, 78);
+    border: 2px solid black;
     padding: 14px 10px;
     outline: none;
-    color: rgb(1, 1, 99);
+    color: black;
     border-radius: 24px;
     transition: 0.25s;
-    font-family: "Poetsen One", sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 16px;
 }
-.box input[type = "text"]:focus, .box input[type = "email"]:focus, .box input[type = "password"]:focus{
-    width: 250px;
-    border-color: rgb(10, 0, 156);
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 280px;
+    border-color: rgb(59, 98, 133);
 }
 .box input[type="submit"]{
     border: 0;
@@ -54,17 +53,18 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid rgb(0, 0, 126);
+    border: 2px solid black;
     padding: 14px 40px;
     outline: none;
-    color: rgb(172, 172, 172);
+    color: black;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
-    font-family: "Poetsen One", sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 16px;
 }
 .box input[type="submit"]:hover{
-    background: blue;
+    background: rgb(59, 98, 133);
     color: white;
+
 }
